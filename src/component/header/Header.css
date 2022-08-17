@@ -1,0 +1,140 @@
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 40%;
+}
+
+.logo>a {
+    color: #db0000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    margin-right: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.up-btn{
+    display: block;
+}
+.show-list {
+    display: flex;
+}
+.show-item{
+list-style: none;
+}
+.show-item > a {
+    color: white;
+    list-style: none;
+    margin: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.show-item:hover {
+    opacity: .8;
+}
+
+.search-btn {
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    opacity: .6;
+}
+
+.search {
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    margin-left: 1rem;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.search-block {
+    display: flex;
+    align-items: center;
+}
+@media (max-width : 1024px) {
+    .navbar {
+            display: flex;
+        }
+    .logo>a {
+        font-size: 1.2rem;
+    }
+
+    .show-item {
+        font-size: .9rem;
+    }
+
+    .up-btn {
+        display: block;
+    }
+}
+@media (max-width : 600px) {
+    .navbar {
+        display: block;
+    }
+    .nav-left{
+        width: 100%;
+    }
+    .up-btn {
+        display: none;
+    }
+}
+
+
+@media (min-width : 768px) {
+    .logo>a {
+            font-size: 1.2rem;
+        }
+    
+        .show-item {
+            font-size: .9rem;
+        }
+
+    
+}
+
+@media (min-width : 1024px) {
+.logo>a {
+        font-size: 1.4rem;
+    }
+
+    .show-item {
+        font-size: 1rem;
+    }
+        .poster-title {
+            margin-bottom: 1rem;
+        }
+}
+
+@media (min-width : 1280px) {
+    
+}

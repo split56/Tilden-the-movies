@@ -1,0 +1,17 @@
+.movieList-title{
+    color: #fff;
+    padding: 2rem;
+}
+.show-more-btn{
+    margin: 1rem auto;
+}
+.movie-head{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.search-box{
+    
+            display: flex;
+            align-items: center;
+}

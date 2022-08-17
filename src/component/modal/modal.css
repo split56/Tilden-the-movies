@@ -1,0 +1,148 @@
+.movie-img{
+    border-radius: 10px;
+}
+.modal {
+    background-color: rgb(24, 24, 24);
+    color: #fff;
+}
+
+.general-modal {
+
+    height: 500px;
+}
+
+.modal-bg {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 998;
+
+}
+
+.modal-list {
+    padding: 3rem 2rem 3rem;
+}
+
+.popup-content {
+    width: 80% !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.ml-item {
+    color: #fff;
+    list-style: none;
+    padding: .2rem;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.ml-item>span {
+    padding: .5rem;
+}
+
+.modal-out {
+    position: absolute;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.ml-item:hover,
+.modal-out:hover {
+    opacity: .5;
+}
+.movie-img {
+    position: absolute;
+    width: 30%;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-150%, -50%);
+}
+
+.movie-name {
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.movie-des {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-15%, -35%);
+}
+
+.movie-lang {
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.movie-like {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.movie-dec {
+    color: #fff;
+    margin-top: 2rem;
+    max-width: 80%;
+    margin-bottom: 2rem;
+    overflow: auto;
+    max-height: 30%;
+}
+
+
+
+
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+@media (max-width:1024px) {
+    .movie-img {
+            display: block;
+        }
+    
+        .movie-des {
+            width: 75%;
+            transform: translate(-15%, -35%);
+        }
+    
+        .movie-like,
+        .movie-lang {
+            color: #fff;
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+}
+
+@media (max-width:600px) {
+    .movie-img{
+        display: none;
+    }
+    .movie-des{
+        width: 90%;
+        transform: translate(-40%, -35%);
+    }
+    .movie-like,.movie-lang {
+        color: #fff;
+        font-size: .8rem;
+        margin-left: 0.8rem;
+    }
+    .movie-name{
+        font-size: 1rem;
+    }
+}
+

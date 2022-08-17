@@ -1,0 +1,32 @@
+
+
+
+.section-headr{
+    color: #fff;
+    padding: 3rem 2rem 1rem;
+}
+.swiper-slide {
+    width: 22%;
+}
+@media (max-width : 1024px) {
+    .section-headr {
+        font-size: .7rem;
+    }
+
+    .swiper-slide {
+        width: 30%;
+    }
+}
+@media (max-width : 600px) {
+    .section-headr {
+        font-size: .6rem;
+    }
+    .swiper-slide {
+        width: 60%;
+    }
+    .movie-head{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+}
+
